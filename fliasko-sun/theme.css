@@ -1,0 +1,40 @@
+/* @name Fliasko Sun */
+
+:root {
+  --bg-base: #1e1e1a;
+  --bg-surface: #171714;
+  --bg-elevated: #2a2925;
+  --bg-highlight: #2c2b26;
+  --bg-card: #313123;
+  --bg-surface-top: rgb(35 34 28 / 0.4);
+  --bg-gradient-1: rgb(0 0 0 / 0.4);
+  --bg-gradient-2: rgb(12 12 12 / 0.35);
+
+  --text-primary: #f4efcd;
+  --text-secondary: #c8c2a6;
+  --text-subdued: #706658;
+
+  --accent: #cbc089;
+  --accent-hover: #fee0b4;
+  --accent-dim: rgb(247 240 166 / 0.14);
+  --accent-dim-hover: rgb(247 240 166 / 0.22);
+  --accent-glow: rgb(247 215 166 / 0.28);
+  --accent-border: rgb(247 231 166 / 0.35);
+
+  --glass-border: 1px solid rgb(244 226 205 / 0.07);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+
+  --radius: 4px;
+  --radius-lg: 8px;
+
+}
+
+
+/*Blur background of searchbar*/
+.search-bar-container{
+  backdrop-filter: blur(10px) !important;
+}
+
+.theme-preview-dot{
+  border-radius: 5px !important;
+}
