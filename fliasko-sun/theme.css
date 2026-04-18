@@ -27,14 +27,30 @@
   --radius: 4px;
   --radius-lg: 8px;
 
+  /*custom*/
+  --text-dark: rgb(28 28 28);
 }
 
+/*Added shadow to play button for more visibility*/
+.card-play{
+  box-shadow: 0 0 15px rgb(65 58 49 / 0.5) !important;
+  &:hover{
+    box-shadow: 0 0 15px rgb(173 168 123 / 0.7) !important;
+  }
+}
+
+/*Changed weird(cuz same on every theme) purple shadow of support button*/
+.support-floating-btn{
+  box-shadow: 0 8px 24px rgb(255 208 103 / 0.35) !important;
+  color: var(--text-dark);
+}
 
 /*Blur background of searchbar*/
 .search-bar-container{
   backdrop-filter: blur(10px) !important;
 }
 
+/*Changed the shape of dot*/
 .theme-preview-dot{
   border-radius: 5px !important;
 }
